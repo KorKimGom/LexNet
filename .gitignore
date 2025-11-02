@@ -1,0 +1,40 @@
+# Qt Creator 및 Visual Studio 관련
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.sln
+*.vcxproj*
+*.opensdf
+*.sdf
+*.suo
+*.ncb
+*.log
+
+# 빌드 디렉터리
+build/
+bin/
+debug/
+release/
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# Qt 자동 생성 파일
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# 백업 및 임시 파일
+*~
+*.swp
+*.bak
+*.tmp
+
+# 제외하지 않을 파일들
+!*.ui
+!*.h
+!*.cpp
